@@ -1,9 +1,0 @@
-# YAML Test Config
-server:
-  host: 0.0.0.0
-  port: 8080
-security:
-  token: yaml-secret-token-123
-  enable_https: false
-database:
-  db_name: production_db
