@@ -1,0 +1,39 @@
+# Secrets & credentials — NEVER commit these
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+secrets.json
+credentials.json
+serviceAccount.json
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Build output
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
